@@ -1,0 +1,308 @@
+* {
+
+    font-family: "Inter", sans-serif;
+    margin: 0;
+
+}
+
+.calculator {
+    display: flex;
+}
+
+.titulo {
+
+    background-image: url(../img/Rectangle-6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 978px;
+    border-radius: 0 0 35px 35px;
+    padding-top: 266px;
+    padding-left: 116px;
+    padding-right: 298px;
+    padding-bottom: 160px;
+    /* height: 737px; */
+
+}
+
+.titulo h1 {
+
+    font-size: 64px;
+    line-height: 110%;
+    font-weight: 600;
+    margin-bottom: 35px;
+
+}
+
+.titulo p {
+
+    width: 465px;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.calculator .image {
+    position: absolute;
+    top: 77px;
+    left: 116px
+}
+
+.resultado {
+
+    background-color: white;
+    box-shadow: 16px 32px 56px 0px #8FAECF;
+    border-radius: 16px 16px 16px 16px;
+    position: absolute;
+    top: 181px;
+    left: 712px;
+    right: 140px;
+    padding: 32px;
+    /* max-width:564px; */
+
+
+
+}
+
+
+
+.resultado p {
+
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 32px;
+}
+
+.dado {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.dados-bmi {
+    display: flex;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    column-gap: 24px;
+
+}
+
+
+.resultado label {
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 8px;
+}
+
+.dado input {
+
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #D8e2e7;
+    width: 85%;
+   
+}
+
+#dado-metrica-2 {
+
+    margin-left: 139px;
+}
+
+
+
+.btn-resultado {
+
+    background-color: #345FF6;
+    border-radius: 16px 999px 999px 16px;
+    padding: 32px;
+    color: white;
+}
+
+.btn-resultado h3 {
+
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.btn-resultado spam {
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+#altura {
+
+    background-image: url(../img/cm.png);
+    background-repeat: no-repeat;
+    background-position: 78% 50%;
+}
+
+#peso {
+
+    background-image: url(../img/kg.png);
+    background-repeat: no-repeat;
+    background-position: 78% 50%;
+
+}
+
+.result-means {
+
+    display: flex;
+    column-gap: 131px;
+    align-items: center;
+    max-width: 1160px;
+    margin-left: 140px;
+    margin-top: 65px;
+    margin-bottom: 96px;    
+ }
+
+.result-means h2 {
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: -5%;
+    font-weight: 600;
+    padding-bottom: 35px;
+    width: 465px;
+}
+
+.result-means p {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+
+}
+
+.content-card {
+
+    display: flex;
+    column-gap: 32px;
+    margin-left: 140px;
+    align-items: center;
+    max-width: 1160px;
+    padding-top: 72px;
+    background-image: url(../img/tips.png);
+    background-repeat: no-repeat;
+    border-radius: 35px 35px 35px 35px;
+  
+
+}
+
+.content .image {
+    padding-bottom: 45px;
+}
+
+.content-card h3 {
+
+    font-size: 24px;
+    letter-spacing: -5%;
+    font-weight: 600;
+    padding-bottom: 24px;
+
+}
+
+.content-card p {
+
+    font-size: 15px;
+    line-height: 150%;
+    font-weight: 400;
+    width: 365px;
+    padding-bottom: 96px;
+
+}
+
+.limitation {
+
+    max-width: 1160px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 120px;
+}
+
+.limitation .card {
+    background-color: white;
+    box-shadow: 16px 32px 56px 0px #8FAECF;
+    width: 365px;
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+
+}
+
+/* .limitation .content{
+
+    width: 654px;
+} */
+
+.limitation .row-1 {
+
+    display: flex;
+    justify-content: space-between;
+    column-gap: 121px;
+    margin-bottom: 32px;
+}
+
+.limitation .row-2 {
+
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 32px;
+    margin-bottom: 24px;
+}
+
+.limitation .row-3 {
+
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+    margin-bottom: 120px;
+}
+
+
+.limitation h2 {
+
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -5%;
+    padding-bottom: 35px;
+}
+
+.limitation .content p {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 564px;
+}
+
+.limitation .card-titulo {
+
+    display: flex;
+    padding-bottom: 16px;
+    column-gap: 16px;
+}
+
+#linha-1{
+
+    position: absolute;
+    z-index: 5;
+    top: 680px;
+    left: 1200px;
+}
+
+
+#linha-2{
+
+    position: absolute;
+    z-index: 5;
+    top: 2130px;
+    left: 180px;
+}
